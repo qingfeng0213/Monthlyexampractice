@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="36dp"
+    tools:context=".login.LoginActivity">
+
+    <EditText
+        android:id="@+id/login_name_et"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="160dp"
+        android:text="15321309175"
+        android:drawablePadding="20dp"
+
+        />
+    <EditText
+        android:id="@+id/login_pswd_et"
+        android:layout_width="match_parent"
+        android:layout_gravity="center"
+        android:inputType="numberPassword"
+        android:layout_height="wrap_content"
+        android:drawablePadding="20dp"
+        android:text="123456"
+        />
+
+    <Button
+        android:id="@+id/login_lgbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:text="登陆" />
+    <Button
+        android:id="@+id/login_san"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="第三方登陆"
+        />
+
+
+
+</LinearLayout>
